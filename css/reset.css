@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+@font-face {font-family: 'IBMPlexSansKR-Regular'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff') format('woff'); font-weight: normal; font-style: normal;}
+/* css document */
+
+body, header, nav, p, div, h1, h2, h3, a, ul, li, img, footer, address{margin: 0; padding: 0; border: none;}
+ul, li{list-style: none;}
+img, video{vertical-align: top;}
+a{text-decoration: none; color: #151414;}
+a:hover{text-decoration: underline;color: #b0d1bb;}
+.blind{display: block; overflow: hidden; position: absolute; top: -1000em; left: 0;}
+body{font-family: "IBMPlexSansKR-Regular", "NaumGothic", "Dotum", "돋움", "Helvetica", "AppleGothic", "Apple SD Gothic Neo", "sans-serif"; font-size: 12px; color: #3d3a39;}
+.clearfix::after {content: "";display: block;clear: both;}
+.wrappage {width: 1440px; margin: 0 auto;}
